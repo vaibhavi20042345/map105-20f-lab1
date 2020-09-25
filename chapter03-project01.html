@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>Share Your Travels -- New York - Central Park</title>
-    <link href="reset.css">
-    <link href="chapter03-project01.css">
+    <link href="reset.css" rel="stylesheet">
+    <link href="chapter03-project01.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Share Your Travels</h1>
-        <img src="images/logo.png">
+        <h2><i>let us know where you're been</i></h2>
+        <!-- <img src="images/logo.png"> -->
         <nav>
             <ul>
                 <li><a href="#description">Description</a></li>
@@ -19,53 +20,49 @@
                 <li><a href="#reviews">Reviews</a></li>
             </ul>
         </nav>
-        <h2>New York - Central Park</h2>
+
 
     </header>
     <main>
         <section>
-            <h3 id="description">Description</h3>
-            <p>Photo by Randy Connolly</p>
-            <p>This photo of Conservatory Pond in
+            <h2 id="description" class="imgHeader">Central Park</h2>
+            <figure>
+                <a href="images/large-central-park.jpg"><img src="images/central-park.jpg" alt="Central Park" title="Central park" style="width: 100%;" /></a>
+                <figcaption>
+                    <label>
+					<i> Conservatory Pond in Central Park</i></label></figcaption>
+            </figure>
+            <p>
+                <label>
+				This photo of Conservatory Pond in
                 <a href="http://www.centralpark.com/">Central Park</a> in
                 <a href="newyork.html">New York City</a> was taken on October 22, 2011 with a Canon EOS 30D camera.
-            </p>
-            <figure>
-                <a href="images/large-central-park.jpg"><img src="images/central-park.jpg" alt="Central Park" title="Central park" /></a>
-                <figcaption>Conservatory Pond in Central Park</figcaption>
-            </figure>
-            <p>Options: <img src="images/icon_download.png" />
-                <img src="images/icon_mail.png" />
-                <img src="images/icon_map.png" />
-                <img src="images/icon_up.png" />
-                <img src="images/icon_download.png" />
-            </p>
+			</label> </p>
+
         </section>
         <section>
-            <h3 id="relatedPhotos">Related Photos</h3>
-            <div>
+            <h3 id="relatedPhotos" class="imgHeader">Related Photos</h3>
+            <div class="relatedImg">
                 <img src="images/related-square1.jpg">
                 <img src="images/related-square2.jpg">
                 <img src="images/related-square3.jpg">
             </div>
-            <hr/>
-        </section>
-        <section>
-            <h3 id="reviews">Reviews</h3>
-            <div>
-                <p><img src="images/icon_comment.png"> <b> By Ricardo on <time>2016-05-23</time></b></p>
-                <p>Easy on the HDR buddy.</p>
-            </div>
-            <hr/>
-        </section>
-        <section>
 
-            <div>
-                <p><img src="images/icon_comment.png"> <b> Susan on <time>2016-11-18</time></b></p>
-                <p>I love Central Park.</p>
-            </div>
-            <hr/>
         </section>
+        <section>
+            <h3 id="reviews" class="imgHeader">Reviews</h3>
+            <div>
+                <p><label><i> By Ricardo on <time>2016-05-23</time></label></i>
+                    <br/>
+                    <br/>
+                    <label><b>Easy on the HDR buddy.</b></label></p>
+                <p><label> <i>By Susan on <time>2016-11-18</time></i></label>
+                    <br/>
+                    <br/>
+                    <label><b>I love Central Park.</b></label></p>
+            </div>
+        </section>
+
     </main>
     <footer>
         <p><a href="#">Home</a> | <a href="#">Browse</a> | <a href="#">Search</a> </p>
